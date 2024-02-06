@@ -1,0 +1,141 @@
+:root
+{
+    --black: #212529;
+    --gray: #707070;
+    --light: #F8F9FA;
+    --white: #fff;
+    --success: #28a745;
+}
+
+nav
+{
+    background-color: var(--success);
+}
+
+.navbar-toggler-icon 
+{
+   color: var(--white); /* Cambia el color del fondo del botón */
+}
+
+.navbar-toggler 
+{
+    border: 1px solid var(--white); /* Ajusta el color del borde del botón si es necesario */
+}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand img
+{
+	width: 82px;
+
+}
+
+.card
+{
+	margin: 0 auto;
+
+}
+
+.card-img-top 
+{
+    border: 0; /* O border: none; */
+}
+
+h5
+{
+    font-weight: lighter;
+}
+
+.text-secondary
+{
+	font-weight: 60;
+	color: var(--gray);
+	margin: 0;
+}
+
+.text-secondary-2 
+{
+	font-size: 13px;
+	color: var(--gray);
+	font-weight: 80;
+}
+
+.text-success
+{
+	font-size: 20px;
+	font-weight: 62px;
+}
+
+a
+{
+    text-decoration: none; /* quitamos la apariencia de un link subrayado*/
+}
+
+.precios
+{
+	text-align: right;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+.precio-oferta 
+{
+	color: var(--success);
+    font-size: 21px;
+	font-weight: bold;
+    
+}
+
+form
+{
+	margin: 0 auto;
+}
+
+#fondo-form
+{
+    background-color: var(--success);
+}
+
+h3.text-white
+{
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+hr 
+{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+footer
+{
+	text-align: center;
+}
+
+footer img
+{
+	width: 82px;
+	padding-top: 30px;
+}
+
+footer p
+{
+	color: var(--gray);
+	font-weight:100;
+}
+
+@media (max-width: 992px) 
+{
+
+}
+
+.block-text 
+{
+    display: block;
+}
+
